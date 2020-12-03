@@ -1,0 +1,173 @@
+body{
+    margin:0 auto;
+}
+.header{
+    width:1348px;
+    height:1080px;
+    background-image: url(images/header-house.jpg);
+    position: relative;
+    margin: 0 auto;
+}
+.simble{
+    width:530px;
+    height: 530px;
+    border-radius:50%;
+    border:10px solid #f4d4a5;
+    background-color:white;
+    position: absolute;
+     top:160px;
+    left:230px;
+    position: relative;
+}
+.header-icon{
+    position: absolute;
+    top:30px;
+    left:47%;
+}
+.header-title{
+    position: absolute;
+    top:70px;
+    left:33%;
+    font-size:25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:#bf4200;
+    text-transform:uppercase;
+}
+.header-text{
+    font-size:25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color:#000;
+    position: absolute;
+    top: 122px;
+    left: 155px;
+}
+.header-text2{
+    font-weight: 700;
+    font-family: sans-serif;
+    color:#1fad26;
+    text-transform: uppercase;
+    position: absolute;
+    top: 200px;
+    font-size:44px;
+    left:93px;  
+}
+.bonus{
+    position: absolute;
+    left: 380px;
+    bottom: 278px
+}
+.about-prc{
+    margin:85px 180px 0px 180px;
+}
+.container{
+    width:1000px;
+margin:0 auto;
+}
+.top-text{
+text-align:center;
+font-size:20px;
+font-weight: 400;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#d07a2d;
+}
+.slice{
+    margin-left: 430px;
+    margin-top: 40px;
+}
+.center-title{
+    font-size:18px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#d07a2d;
+    text-align: center;
+    margin-bottom:120px;
+}
+.center-title2{
+    font-size:15px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+.img1{
+    margin-bottom:30px;
+}
+.img2{
+    margin-bottom:125px;
+}
+.download{
+    height:305px;
+    margin-bottom: 125px;
+    margin:0 auto;
+}
+.container2{
+ background-color: #f1dfbc;
+}
+.d-img{
+    margin-left: 360px;
+    margin-top: 45px;
+}
+.download-box{
+    width: 596px;
+    height: 86px;
+    background-color: #17753b;
+    border:2px solid #effd15;
+    box-sizing: border-box;
+    padding:30px 65px;
+    margin-left:213px;
+    margin-top: -5px;
+}
+.download-box a{
+    color:#fff;
+    font-size:24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.download-box a:hover{
+    color:aqua;
+    background-color: #fff;
+}
+.footer-title{
+font-size: 18px;
+font-family: inherit;
+font-weight: 700;
+text-align: center;
+color:#d07a2d;
+text-transform: uppercase;
+margin-bottom: 44px;
+}
+.footer-text{
+    font-style: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.houses{
+    margin-bottom: 120px;
+}
+.slice2{
+    margin-bottom: 180px;
+}
+.adress{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.email{
+     margin-left:385px ;
+    font-size: 25px;
+    color:aqua;
+  padding-bottom: 30px;
+}
+.email:hover{
+    color: blue;
+}
+@media(max-width:1100px){
+    .footer{
+        margin-left:200px;
+    }
+    .download{
+        margin-left:200px;
+    }
+}
